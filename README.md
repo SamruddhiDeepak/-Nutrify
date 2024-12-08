@@ -27,7 +27,7 @@ Follow these steps to run Nutrify locally:
 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SamruddhiDeepak/Nutrify.git
+git clone https://github.com/SamruddhiDeepak/-Nutrify.git
 cd Nutrify
 ```
 
@@ -37,12 +37,12 @@ cd Nutrify
 -Create and activate a virtual environment:
 
 ```bash
-python -m venv env
+python -m venv venv
 source env/bin/activate   # For Linux/macOS
-env\Scripts\activate      # For Windows
+venv\Scripts\activate      # For Windows
 ```
 
--Install dependencies:
+-Install dependencies(may take some time):
 ```bash
 pip install -r requirements.txt
 ```
