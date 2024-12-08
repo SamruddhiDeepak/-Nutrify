@@ -1,5 +1,4 @@
 import streamlit as st
-from pyzbar.pyzbar import decode
 import cv2
 import numpy as np
 import requests
@@ -36,13 +35,6 @@ def preprocess_image(image):
     edged = cv2.Canny(blurred, 50, 200)  
     return edged
 
-#barcode detection
-def detect_barcode_pyzbar(image):
-    """Detect barcode using pyzbar."""
-    decoded_objects = decode(image)
-    if decoded_objects:
-        return decoded_objects[0].data.decode("utf-8")
-    return None
 
 #barcode detection using opencv
 def detect_barcode_opencv(image):
@@ -257,9 +249,7 @@ elif page == "Barcode Scanner":
             img = cv2.imdecode(file_bytes, 1)
             st.image(img, caption="Captured Image", use_column_width=True)
             preprocessed_image = preprocess_image(img)
-            barcode_data = detect_barcode_pyzbar(preprocessed_image)
-            if not barcode_data:
-                barcode_data = detect_barcode_opencv(img)
+            barcode_data = detect_barcode_opencv(img)
             if not barcode_data:
                 st.warning("No barcode detected. Please ensure the barcode is visible and clear.")
 
