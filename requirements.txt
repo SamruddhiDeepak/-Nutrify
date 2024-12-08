@@ -1,0 +1,8 @@
+streamlit
+pyzbar
+opencv-python
+numpy
+requests
+beautifulsoup4
+plotly
+pandas
