@@ -1,7 +1,10 @@
 streamlit
+pyzbar
 opencv-python-headless
 numpy
 requests
 beautifulsoup4
 plotly
 pandas
+Pillow
+streamlit-lottie
