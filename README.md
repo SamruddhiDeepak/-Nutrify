@@ -2,7 +2,7 @@
 Nutrify is a food information app designed to promote informed food choices. By scanning barcodes on food packages, Nutrify provides essential details such as ingredients, nutritional values, certifications, and food regulations. With an integrated Botpress-powered chatbot and recipe suggestions, Nutrify simplifies your journey toward better food awareness.
 
 # Features📌
-1. Barcode Scanner: Scan/Manually eneter food product barcodes to access:
+1. Barcode Scanner: Uload barcoe image/Manually enter food product barcodes to access:
 -Ingredients
 -Nutritional values
 -Relevant food regulations
@@ -13,7 +13,7 @@ Nutrify is a food information app designed to promote informed food choices. By 
 2. Smart Chatbot: Get quick answers about food, regulations, and processing.
 -Restricted to a curated knowledge base.
 -Marks unrelated queries as "Out of Context."
-3. Recipe Corner: Enter ingredients you have at home and explore recipes powered by external APIs.
+3. Recipe Corner: Enter ingredients you have at home and explore recipes powered by Spoonacular API.
 # Tech Stack🛠️
 Streamlit: User interface for barcode scanning and recipe suggestions.
 Python: Business logic and API integrations.
@@ -57,7 +57,7 @@ streamlit run app.py
 Open your browser and navigate to http://localhost:8501.
 
 # Usage Instructions🎯
-1. Scan Barcodes: Use the camera input on your device to capture a food product barcode or enter it manually.
+1. Scan Barcodes: Use the camera on your device to capture a food product barcode, save it in your gallery and upload it or enter the barcode number manually.
 View product details fetched from the Open Food Facts API.
 
 2. Ask the Chatbot: Type your queries about food regulations, processing, or certifications.
@@ -65,7 +65,6 @@ View product details fetched from the Open Food Facts API.
 3. Explore Recipes: Go to the "Recipe Corner." Enter the ingredients you have, and discover recipes you can make.
 
 # Future Enhancements 🧩
-
 -Support for additional APIs for more extensive food data.
 -Integration with AI to provide personalized food recommendations.
 
