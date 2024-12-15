@@ -310,7 +310,8 @@ Check out our **Recipe Corner** to create delicious meals from the ingredients y
 With *Nutrify*, you're in control of what you eat—and the world you’re helping to create. 🌎💚  
 """
     )
-    st.image(r'c:\Users\Dell\Documents\Nutri\IMG.jpeg', use_container_width=True)
+     st.image(r'./assets/IMG.jpeg', use_container_width=True)
+
 
 
 elif page == "Barcode Scanner":
