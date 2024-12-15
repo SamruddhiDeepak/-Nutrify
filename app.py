@@ -474,4 +474,4 @@ elif page == "Chatbot":
         unsafe_allow_html=True
     )
     chatbot_url = "https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/12/07/18/20241207185412-QBTY0H6R.json"
-    components.iframe(chatbot_url, width="100%", height=600)
+    components.iframe(chatbot_url, width=None, height=600)
