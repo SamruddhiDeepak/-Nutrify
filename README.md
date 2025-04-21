@@ -1,7 +1,7 @@
-# Nutrify 📱
+# Nutrify 
 Nutrify is a food information app designed to promote informed food choices. By scanning barcodes on food packages, Nutrify provides essential details such as ingredients, nutritional values, certifications, and food regulations. With an integrated Botpress-powered chatbot and recipe suggestions, Nutrify simplifies your journey toward better food awareness.
 
-# Features📌
+# Features
 1. Barcode Scanner: Uload barcoe image/Manually enter food product barcodes to access:
 -Ingredients
 -Nutritional values
@@ -20,7 +20,7 @@ Python: Business logic and API integrations.
 Botpress: Chatbot engine for answering food-related queries.
 Open Food Facts API: Fetches product details from a comprehensive food database.
 
-# Setup and Installation🚀
+# Setup and Installation
 
 Follow these steps to run Nutrify locally:
 
@@ -53,10 +53,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-4. Access the App
-Open your browser and navigate to http://localhost:8501.
-
-# Usage Instructions🎯
+# Usage Instructions
 1. Scan Barcodes: Use the camera on your device to capture a food product barcode, save it in your gallery and upload it or enter the barcode number manually.
 View product details fetched from the Open Food Facts API.
 
@@ -64,14 +61,4 @@ View product details fetched from the Open Food Facts API.
 
 3. Explore Recipes: Go to the "Recipe Corner." Enter the ingredients you have, and discover recipes you can make.
 
-# Future Enhancements 🧩
--Support for additional APIs for more extensive food data.
--Integration with AI to provide personalized food recommendations.
 
-🤝 Contributions
-Contributions are welcome! Feel free to fork the repo and submit pull requests for enhancements or bug fixes.
-
-📧 Contact
-Have questions or suggestions? Reach out at:
-
-Email: samruddhid2009@gmail.com
